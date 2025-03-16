@@ -87,7 +87,7 @@ const Contact = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-slate-800 mb-4">Contact</h2>
           <div className="w-20 h-1 bg-amber-500 mx-auto mb-8"></div>
           <p className="text-lg text-slate-600">
-            N'hésitez pas à me contacter pour discuter de vos projets ou opportunités d'alternance
+            N&apos;hésitez pas à me contacter pour discuter de vos projets ou opportunités d&apos;alternance
           </p>
         </motion.div>
 
@@ -200,8 +200,8 @@ const Contact = () => {
           >
             <h3 className="text-xl font-bold mb-6">Restons connectés</h3>
             <p className="mb-8 text-gray-300">
-              Je suis à la recherche d'une alternance pour septembre 2025. Si mon profil correspond à vos besoins,
-              n'hésitez pas à me contacter. Je serais ravi d'échanger avec vous sur les opportunités disponibles.
+              Je suis à la recherche d&apos;une alternance pour septembre 2025. Si mon profil correspond à vos besoins,
+              n&apos;hésitez pas à me contacter. Je serais ravi d&apos;échanger avec vous sur les opportunités disponibles.
             </p>
 
             <div className="flex justify-center space-x-6 mt-8">

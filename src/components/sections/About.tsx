@@ -76,7 +76,7 @@ const About = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 gradient-text-blue">À PROPOS DE MOI</h2>
           <div className="w-20 h-1 bg-tech-accent mx-auto mb-8"></div>
           <p className="text-lg text-gray-300">
-            ADMINISTRATEUR SYSTÈMES ET RÉSEAUX EN DEVENIR, PASSIONNÉ PAR LES NOUVELLES TECHNOLOGIES ET L'INFRASTRUCTURE IT.
+            ADMINISTRATEUR SYSTÈMES ET RÉSEAUX EN DEVENIR, PASSIONNÉ PAR LES NOUVELLES TECHNOLOGIES ET L&apos;INFRASTRUCTURE IT.
           </p>
         </motion.div>
 
@@ -114,7 +114,7 @@ const About = () => {
               >
                 <h3 className="text-2xl font-bold text-white mb-2 text-glow-blue tech-text">FUTUR ADMINISTRATEUR RÉSEAUX</h3>
                 <div className="w-16 h-1 bg-tech-accent mb-3"></div>
-                <p className="text-white/80">EN RECHERCHE D'ALTERNANCE POUR SEPTEMBRE 2025</p>
+                <p className="text-white/80">EN RECHERCHE D&apos;ALTERNANCE POUR SEPTEMBRE 2025</p>
               </motion.div>
             </div>
           </motion.div>
@@ -128,13 +128,13 @@ const About = () => {
           >
             <h3 className="text-2xl font-bold text-white mb-6 gradient-text-blue">PRÉSENTATION</h3>
             <p className="text-gray-300 mb-8 leading-relaxed">
-              Diplômé d'un BTS SIO option SISR, je suis passionné par les technologies d'infrastructure et 
-              l'administration système et réseau. Mes expériences de stage m'ont permis de développer des 
-              compétences pratiques en administration de serveurs Windows et Linux, ainsi qu'en sécurisation 
+              Diplômé d&apos;un BTS SIO option SISR, je suis passionné par les technologies d&apos;infrastructure et 
+              l&apos;administration système et réseau. Mes expériences de stage m&apos;ont permis de développer des 
+              compétences pratiques en administration de serveurs Windows et Linux, ainsi qu&apos;en sécurisation 
               des infrastructures réseau.
               <br/><br/>
-              Rigoureux et méthodique, j'apprécie particulièrement le travail en équipe et la résolution de 
-              problèmes techniques complexes. Mon objectif est d'intégrer une entreprise dynamique en alternance 
+              Rigoureux et méthodique, j&apos;apprécie particulièrement le travail en équipe et la résolution de 
+              problèmes techniques complexes. Mon objectif est d&apos;intégrer une entreprise dynamique en alternance 
               où je pourrai mettre à profit mes compétences tout en continuant à me former dans le domaine des 
               réseaux et de la cybersécurité.
             </p>
@@ -204,7 +204,7 @@ const About = () => {
         >
           <div className="glass inline-block px-8 py-4 rounded-lg border border-blue-500/20 shadow-lg">
             <p className="text-gray-200 font-medium">
-              À la recherche d'une <span className="text-tech-accent font-bold">alternance en administration réseaux et systèmes</span> pour la rentrée de septembre 2025.
+              À la recherche d&apos;une <span className="text-tech-accent font-bold">alternance en administration réseaux et systèmes</span> pour la rentrée de septembre 2025.
             </p>
           </div>
         </motion.div>

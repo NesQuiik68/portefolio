@@ -86,9 +86,9 @@ const Education = () => {
   // Certifications
   const certifications = [
     {
-      title: "Mooc SecNumEdu de l'ANSSI",
+      title: "Mooc SecNumEdu de l&apos;ANSSI",
       icon: <FaLock className="text-tech-accent" />,
-      issuer: "Agence Nationale de la Sécurité des Systèmes d'Information",
+      issuer: "Agence Nationale de la Sécurité des Systèmes d&apos;Information",
       date: "2023",
       description: "Formation sur la sécurité numérique et la protection des infrastructures."
     },
@@ -102,7 +102,7 @@ const Education = () => {
     {
       title: "CNIL",
       icon: <FaLock className="text-tech-accent" />,
-      issuer: "Commission Nationale de l'Informatique et des Libertés",
+      issuer: "Commission Nationale de l&apos;Informatique et des Libertés",
       date: "2024",
       description: "Formation sur la protection des données personnelles et la conformité au RGPD."
     }
@@ -255,7 +255,7 @@ const Education = () => {
         >
           <div className="glass inline-block px-6 py-3 rounded-lg border border-blue-500/20">
             <p className="text-gray-300 font-medium">
-              Je suis à la recherche d'une <span className="text-tech-accent">alternance en administration réseaux et systèmes</span> pour la rentrée de septembre 2025
+              Je suis à la recherche d&apos;une <span className="text-tech-accent">alternance en administration réseaux et systèmes</span> pour la rentrée de septembre 2025
             </p>
           </div>
         </motion.div>

@@ -105,7 +105,7 @@ const Experience = () => {
       company: "Alsace Habitat",
       location: "Strasbourg",
       period: "Janvier 2024 - Février 2024",
-      description: "Stage en tant qu'administrateur réseau et système dans une entreprise de gestion immobilière.",
+      description: "Stage en tant qu&apos;administrateur réseau et système dans une entreprise de gestion immobilière.",
       color: "blue",
       logo: <FaBuilding className="text-tech-accent" size={40} />,
       missions: [
@@ -201,7 +201,7 @@ const Experience = () => {
           viewport={{ once: true }}
           className="max-w-5xl mx-auto space-y-24"
         >
-          {experiences.map((experience, index) => (
+          {experiences.map((experience) => (
             <motion.div 
               key={experience.id}
               variants={itemVariants}
@@ -299,7 +299,7 @@ const Experience = () => {
                               </div>
                               <div className="h-1 w-32 bg-gradient-to-r from-blue-600 to-blue-400 rounded-full mb-3"></div>
                               <p className="text-center max-w-lg">
-                                Déploiement et mise à jour complète de plus de 60 postes de travail dans l'ensemble du siège social, incluant l'installation des systèmes d'exploitation, logiciels métiers et configurations de sécurité.
+                                Déploiement et mise à jour complète de plus de 60 postes de travail dans l&apos;ensemble du siège social, incluant l&apos;installation des systèmes d&apos;exploitation, logiciels métiers et configurations de sécurité.
                               </p>
                             </div>
                           </div>
@@ -309,10 +309,10 @@ const Experience = () => {
                               <div className="bg-amber-500/20 rounded-lg p-4 max-w-lg">
                                 <div className="flex items-center mb-3">
                                   <FaHdd className="text-amber-400 mr-3" size={24} />
-                                  <h3 className="text-lg font-bold text-white">MISE EN PLACE D'UN SERVEUR NAS</h3>
+                                  <h3 className="text-lg font-bold text-white">MISE EN PLACE D&apos;UN SERVEUR NAS</h3>
                                 </div>
                                 <p className="text-gray-300 mb-3">
-                                  Installation d'un serveur de stockage NAS pour une petite entreprise indépendante, permettant de centraliser les données clients et documents importants.
+                                  Installation d&apos;un serveur de stockage NAS pour une petite entreprise indépendante, permettant de centraliser les données clients et documents importants.
                                 </p>
                                 <div className="flex flex-wrap gap-2 mb-2">
                                   <span className="text-xs bg-amber-500/10 text-amber-400 px-2 py-1 rounded-full">Partage de fichiers</span>
@@ -344,11 +344,11 @@ const Experience = () => {
         >
           <div className="glass rounded-xl overflow-hidden border border-amber-500/20 shadow-lg hover:shadow-amber-500/10 transition-all duration-300">
             <div className="bg-gradient-to-r from-slate-800 to-slate-700 p-6 border-b border-amber-500/20">
-              <h3 className="text-2xl font-bold gradient-text text-center">EN RECHERCHE D'ALTERNANCE</h3>
+              <h3 className="text-2xl font-bold gradient-text text-center">EN RECHERCHE D&apos;ALTERNANCE</h3>
             </div>
             <div className="p-6 text-center">
               <p className="text-gray-300 mb-6">
-                Je suis actuellement à la recherche d'une alternance en administration réseaux et systèmes pour la rentrée de septembre 2025.
+                Je suis actuellement à la recherche d&apos;une alternance en administration réseaux et systèmes pour la rentrée de septembre 2025.
               </p>
               
               <div className="flex flex-wrap justify-center gap-6 mb-6">

@@ -95,7 +95,7 @@ const Hero = () => {
               custom={2}
             >
               FUTUR EXPERT EN <span className="text-tech-glow">RÉSEAUX & SYSTÈMES</span> 
-              <br />EN RECHERCHE D'ALTERNANCE POUR SEPT. 2025
+              <br />EN RECHERCHE D&apos;ALTERNANCE POUR SEPT. 2025
             </motion.h2>
             
             <motion.p 
@@ -103,7 +103,7 @@ const Hero = () => {
               variants={textVariants}
               custom={3}
             >
-              Passionné par les infrastructures réseaux et la cybersécurité, je combine rigueur technique et créativité pour concevoir des solutions efficaces et sécurisées. Mon approche méthodique et ma capacité d'adaptation me permettent de répondre aux défis complexes des environnements informatiques modernes.
+              Passionné par les infrastructures réseaux et la cybersécurité, je combine rigueur technique et créativité pour concevoir des solutions efficaces et sécurisées. Mon approche méthodique et ma capacité d&apos;adaptation me permettent de répondre aux défis complexes des environnements informatiques modernes.
             </motion.p>
             
             <motion.div 
