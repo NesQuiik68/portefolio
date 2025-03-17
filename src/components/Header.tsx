@@ -69,20 +69,20 @@ const Header = () => {
       className={`fixed w-full z-50 transition-all duration-300 ${
         scrolled 
           ? 'bg-slate-900/95 backdrop-blur-sm shadow-md py-2 border-b border-blue-500/20' 
-          : 'bg-transparent py-4'
+          : 'bg-transparent py-3 md:py-4'
       }`}
     >
-      <div className="container mx-auto px-4 flex justify-between items-center">
-        <Link href="/" className="flex items-center space-x-2 group">
+      <div className="container mx-auto px-3 sm:px-4 flex justify-between items-center">
+        <Link href="/" className="flex items-center space-x-1 md:space-x-2 group">
           <motion.div
             initial={{ rotate: 0 }}
             animate={{ rotate: [0, 10, -10, 0] }}
             transition={{ duration: 2, repeat: Infinity, repeatType: "loop", repeatDelay: 5 }}
             className="text-tech-accent"
           >
-            <FaLaptopCode size={28} />
+            <FaLaptopCode size={24} className="md:text-[28px]" />
           </motion.div>
-          <span className="text-xl md:text-2xl font-bold text-white tech-text group-hover:text-tech-glow transition-colors duration-300">
+          <span className="text-lg md:text-2xl font-bold text-white tech-text group-hover:text-tech-glow transition-colors duration-300">
             <span className="gradient-text-blue">R</span>
             <span className="gradient-text">H</span>
             <span className="hidden md:inline-block ml-2 text-sm bg-blue-500/20 px-2 py-1 rounded border border-blue-500/30">EXPERT RÉSEAUX</span>
@@ -90,7 +90,7 @@ const Header = () => {
         </Link>
 
         {/* Desktop Menu */}
-        <nav className="hidden md:flex space-x-6">
+        <nav className="hidden md:flex space-x-4 lg:space-x-6">
           {menuItems.map((item, index) => (
             <motion.div
               key={item.name}
@@ -110,7 +110,7 @@ const Header = () => {
           
           <motion.a
             href="#contact"
-            className="px-4 py-2 bg-gradient-to-r from-blue-600 to-blue-400 hover:from-blue-500 hover:to-blue-300 text-white font-medium rounded-md transition-all duration-300 shadow-lg hover:shadow-neon text-sm"
+            className="px-3 md:px-4 py-1.5 md:py-2 bg-gradient-to-r from-blue-600 to-blue-400 hover:from-blue-500 hover:to-blue-300 text-white font-medium rounded-md transition-all duration-300 shadow-lg hover:shadow-neon text-sm"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
@@ -120,12 +120,12 @@ const Header = () => {
 
         {/* Mobile Menu Button */}
         <motion.button
-          className="md:hidden text-white focus:outline-none"
+          className="md:hidden text-white focus:outline-none p-1"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
         >
-          {isMenuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
+          {isMenuOpen ? <FaTimes size={20} /> : <FaBars size={20} />}
         </motion.button>
       </div>
 
@@ -151,7 +151,7 @@ const Header = () => {
                   >
                     <Link
                       href={item.href}
-                      className="text-white hover:text-tech-glow transition-colors tech-text"
+                      className="text-white hover:text-tech-glow transition-colors tech-text block py-2 text-center text-base border-b border-blue-500/10 last:border-0"
                       onClick={() => setIsMenuOpen(false)}
                     >
                       {item.name}
@@ -160,7 +160,7 @@ const Header = () => {
                 ))}
                 <motion.a
                   href="#contact"
-                  className="px-4 py-2 bg-gradient-to-r from-blue-600 to-blue-400 text-white font-medium rounded-md transition-all duration-300 shadow-lg hover:shadow-neon inline-block text-center"
+                  className="px-4 py-2 bg-gradient-to-r from-blue-600 to-blue-400 text-white font-medium rounded-md transition-all duration-300 shadow-lg hover:shadow-neon block text-center mt-2"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => setIsMenuOpen(false)}

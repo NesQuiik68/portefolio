@@ -24,9 +24,15 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "RAYANE HAMADA | PORTFOLIO - ALTERNANCE RÉSEAUX & SYSTÈMES",
-  description: "Portfolio professionnel de Rayane Hamada, étudiant en informatique à la recherche d'une alternance en administration réseaux et systèmes pour septembre 2025.",
-  keywords: "Rayane Hamada, portfolio, alternance, réseaux, systèmes, informatique, BTS SIO, Licence Pro, admin réseau",
+  title: "RAYANE HAMADA | EN RECHERCHE D'ALTERNANCE RÉSEAUX & SYSTÈMES 2025",
+  description: "Portfolio professionnel de Rayane Hamada, étudiant en informatique actuellement en recherche active d'une alternance en administration réseaux et systèmes pour septembre 2025 en région Grand Est.",
+  keywords: "Rayane Hamada, portfolio, alternance 2025, réseaux, systèmes, informatique, BTS SIO, Licence Pro, admin réseau, recherche alternance, apprentissage, Grand Est",
+  openGraph: {
+    title: "Rayane Hamada | En recherche d'alternance Réseaux & Systèmes 2025",
+    description: "Portfolio professionnel - À la recherche d'une alternance en administration réseaux et systèmes pour septembre 2025",
+    images: ['/images/og-image.jpg'],
+    type: 'website'
+  },
 };
 
 export default function RootLayout({
@@ -41,7 +47,7 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </head>
-      <body className={montserrat.className}>
+      <body className={`${montserrat.className} overflow-fix`}>
         {children}
       </body>
     </html>
