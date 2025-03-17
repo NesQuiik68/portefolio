@@ -1,6 +1,6 @@
 "use client";
 import { motion } from 'framer-motion';
-import { FaUser, FaGraduationCap, FaCode, FaCar, FaMapMarkerAlt, FaServer, FaNetworkWired, FaShieldAlt, FaLaptopCode, FaDownload, FaFileAlt } from 'react-icons/fa';
+import { FaUser, FaGraduationCap, FaCode, FaCar, FaMapMarkerAlt, FaServer, FaNetworkWired, FaShieldAlt, FaLaptopCode, FaFileAlt } from 'react-icons/fa';
 import downloadPDF from '@/utils/downloadPDF';
 
 const About = () => {

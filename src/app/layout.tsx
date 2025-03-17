@@ -27,6 +27,7 @@ export const metadata: Metadata = {
   title: "RAYANE HAMADA | EN RECHERCHE D'ALTERNANCE RÉSEAUX & SYSTÈMES 2025",
   description: "Portfolio professionnel de Rayane Hamada, étudiant en informatique actuellement en recherche active d'une alternance en administration réseaux et systèmes pour septembre 2025 en région Grand Est.",
   keywords: "Rayane Hamada, portfolio, alternance 2025, réseaux, systèmes, informatique, BTS SIO, Licence Pro, admin réseau, recherche alternance, apprentissage, Grand Est",
+  metadataBase: new URL('https://rayane-hamada-portfolio.netlify.app'),
   openGraph: {
     title: "Rayane Hamada | En recherche d'alternance Réseaux & Systèmes 2025",
     description: "Portfolio professionnel - À la recherche d'une alternance en administration réseaux et systèmes pour septembre 2025",
